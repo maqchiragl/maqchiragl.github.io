@@ -12,7 +12,8 @@
             pagelink1: "SharePoint.txt",
             pagelink2: "App-Development.txt",
             pagelink3: "Cloud.txt",
-            pagelink4: "UX-Design.txt"
+            pagelink4: "UX-Design.txt",
+            pagelink5: "Power BI.txt"
         };
     if (-1 !== window.location.hash.toLowerCase().indexOf("#expertise")) {
         oPageNavLinks = oExpertise;
