@@ -1305,3 +1305,10 @@ b {
 .GlyphMgn-bi {
     margin-left: -2px;
 }
+
+.subData {
+    display: block;
+    height: 62px;
+    line-height: 20px;
+    overflow: hidden;
+}

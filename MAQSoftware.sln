@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "maqchiragl.github.io", ".", "{A7C7DAB3-8775-481D-AC12-D1345B3935E9}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "maqsoftwaremain.github.io", ".", "{A7C7DAB3-8775-481D-AC12-D1345B3935E9}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_14482"
 		Debug.AspNetCompiler.PhysicalPath = "..\maqchiragl.github.io\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14482\"
