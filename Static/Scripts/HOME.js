@@ -9,7 +9,7 @@
                    "../../Static/Images/Slider/AppDev.jpg",
                    "../../Static/Images/Slider/Cloud.jpg",
                    "../../Static/Images/Slider/UX-Design.jpg",
-                    "../../Static/Images/Slider/website_banner_powerbi_2.png"],
+                    "../../Static/Images/Slider/website_banner_powerbi.jpg"],
         imageTitle: ["Business Intelligence",
                      "SharePoint",
                      "App Development",
