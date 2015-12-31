@@ -24,11 +24,7 @@ _gaq.push(['_trackPageview']);
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-////Application insights code
-//window.appInsights = { queue: [], applicationInsightsId: null, accountId: null, appUserId: null, configUrl: null, start: function (n) { function u(n, t) { n[t] = function () { var i = arguments; n.queue.push(function () { n[t].apply(n, i) }) } } function f(n) { var t = document.createElement("script"); return t.type = "text/javascript", t.src = n, t.async = !0, t } function r() { i.appendChild(f("//az416426.vo.msecnd.net/scripts/ai.0.js")) } var i, t; this.applicationInsightsId = n; u(this, "logEvent"); u(this, "logPageView"); i = document.getElementsByTagName("script")[0].parentNode; this.configUrl === null ? r() : (t = f(this.configUrl), t.onload = r, t.onerror = r, i.appendChild(t)); this.start = function () { } } };
 
-//appInsights.start("16108926-fb4b-4765-a6ed-79c6749eb79c");
-//appInsights.logPageView();
 
 function loadPage(pageName) {
     "use strict";
@@ -191,24 +187,16 @@ function loadNewsMainPage() {
         dataType: 'jsonp',
         success: function (sResponse) {
             loadNewsMain(sResponse);
-        }//,
-        //complete: function () {
-        //    oNewsContainer.removeClass(sLoadingClass);
-        //}
+        }        
     });
 }
 function loadNewsMain(sNewsData) {
     try {
-        // var iMaxPageIndex;
-        var parser = new DOMParser();
+             var parser = new DOMParser();
         oNewsData = parser.parseFromString(sNewsData, "text/xml");
         iTotalNews = oNewsData.getElementsByTagName('entry').length;
-        // if (iTotalNews || oNewsData.getElementsByTagName('content')) {
-        //   iMaxPageIndex = Math.round(iTotalNews / oNewsPager.pagesize);
-        // $("#Pagination").show();
-        renderNewsMain();
-        //}
-    } catch (ignore) {
+               renderNewsMain();
+          } catch (ignore) {
     }
 }
 function renderNewsMain() {
