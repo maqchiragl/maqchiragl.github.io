@@ -21,7 +21,7 @@
                       "Retail and LOB applications for Windows 8, Windows Phone 8, iPhone, iPad, Office apps, and SharePoint apps",
                       "Reduce the infrastructure cost, increase availability, and scalability of your application",
                       "Brand marketing websites, rich media production work, innovative and attractive applications to increase user adoption and retention",
-                      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."],
+                      "https://github.com/mudugantir/maqchiragl.github.io.git"],
         current: 0,
         next: 1,
         interval: 0
