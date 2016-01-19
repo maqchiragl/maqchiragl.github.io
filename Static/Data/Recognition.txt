@@ -71,7 +71,7 @@
         <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Silver Partner for Business Intelligence, Application Development and Collaboration and Content" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Microsoft is a Microsoft Gold Certified Partner</p>
+        <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
         <p>
             MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Application Development which acknowledges our competencies and specializations in Microsoft solutions.
 			</p>
