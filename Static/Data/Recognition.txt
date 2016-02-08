@@ -68,7 +68,7 @@
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Silver Partner for Business Intelligence, Application Development and Collaboration and Content" />
+        <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Silver Partner for Business Intelligence, Application Development and Collaboration and Content" width="133" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
         <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
