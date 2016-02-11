@@ -54,26 +54,12 @@
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/CMMI.png" alt="SEI CMMI - Level 3, 2009" title="SEI CMMI - Level 3, 2009" />
-    </aside>
-    <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">SEI CMMI - Level 3, 2009</p>
-        <p>
-            MAQ Software was certified SEI CMMI Level 3 by QAI India.                            
-        </p>
-        <p class="DataSubContent">
-            At Level 3, defined and documented standard processes are established and subject to some degree of improvement over time. These standard processes are used to establish consistency of process performance across the organization.
-        </p>
-    </aside>
-</section>
-<section class="Clear TopMargin LeftArticle FullWidth">
-    <aside class="RecognitionImage FloatLeft">
         <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Gold Partner for Data Analytics, Data Platform and Application Development" width="133" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
         <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
         <p>
-            MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Application Development which acknowledges our competencies and specializations in Microsoft solutions.
+            MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Data Analytics, Data Platform and Application Development which acknowledges our competencies and specializations in Microsoft solutions.
 			</p>
     </aside>
 </section>
