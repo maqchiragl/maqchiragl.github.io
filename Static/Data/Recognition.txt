@@ -1,12 +1,17 @@
 ﻿<h1 class="DataTitle SemiBold Color58585a">Our Achievements</h1>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/Amazon_Partner.png" alt="Amazon Consulting Partner, 2014" title="Amazon Consulting Partner, 2014" />
+        <img src="../../Static/Images/Recognition/Inc5000.png" alt="Inc. 5000, Fastest Growing Companies in America, 2007-2012" title="Inc. 5000, Fastest Growing Companies in America, 2007-2015" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Amazon Consulting Partner, 2014</p>
+        <p class="SemiBold Color3f3f3f">Inc. 5000, Fastest Growing Companies in America, 2007-2015</p>
         <p>
-            MAQ Software is a Consulting Partner for the Amazon Web Services based on our technical expertise and verified client references.                            
+            In 2015, MAQ Software was ranked as one of the fastest growing private companies in America for seven years in a row.
+        </p>
+        <p class="DataSubContent">With this accomplishment, MAQ Software joined the rarified company of enterprises who have appeared on the list multiple times.</p>
+        <p class="DataSubContent">
+            For more than 30 years, Inc.’s list has served as evidence of the significant accomplishments of enterprises such as Intuit, 
+            Zappos, Under Armour, Microsoft, Jamba Juice, Timberland, Visa, Clif Bar, Patagonia and Oracle.
         </p>
     </aside>
 </section>
@@ -27,17 +32,23 @@
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/Inc5000.png" alt="Inc. 5000, Fastest Growing Companies in America, 2007-2012" title="Inc. 5000, Fastest Growing Companies in America, 2007-2015" />
+        <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Gold Partner for Data Analytics, Data Platform and Application Development" width="133" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Inc. 5000, Fastest Growing Companies in America, 2007-2015</p>
+        <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
         <p>
-            In 2015, MAQ Software was ranked as one of the fastest growing private companies in America for seven years in a row.
-        </p>
-        <p class="DataSubContent">With this accomplishment, MAQ Software joined the rarified company of enterprises who have appeared on the list multiple times.</p>
-        <p class="DataSubContent">
-            For more than 30 years, Inc.’s list has served as evidence of the significant accomplishments of enterprises such as Intuit, 
-            Zappos, Under Armour, Microsoft, Jamba Juice, Timberland, Visa, Clif Bar, Patagonia and Oracle.
+            MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Data Analytics, Data Platform and Application Development which acknowledges our competencies and specializations in Microsoft solutions.
+			</p>
+    </aside>
+</section>
+<section class="Clear TopMargin LeftArticle FullWidth">
+    <aside class="RecognitionImage FloatLeft">
+        <img src="../../Static/Images/Recognition/Amazon_Partner.png" alt="Amazon Consulting Partner, 2014" title="Amazon Consulting Partner, 2014" />
+    </aside>
+    <aside class="RecognitionContent FloatLeft">
+        <p class="SemiBold Color3f3f3f">Amazon Consulting Partner, 2014</p>
+        <p>
+            MAQ Software is a Consulting Partner for the Amazon Web Services based on our technical expertise and verified client references.                            
         </p>
     </aside>
 </section>
@@ -50,17 +61,6 @@
         <p>
             MAQ Software is a preferred vendor for Microsoft since 2005. This confirms Microsoft’s trust in our quality and delivery model.
         </p>
-    </aside>
-</section>
-<section class="Clear TopMargin LeftArticle FullWidth">
-    <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Gold Partner for Data Analytics, Data Platform and Application Development" width="133" />
-    </aside>
-    <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
-        <p>
-            MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Data Analytics, Data Platform and Application Development which acknowledges our competencies and specializations in Microsoft solutions.
-			</p>
     </aside>
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">

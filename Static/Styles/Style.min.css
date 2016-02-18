@@ -102,7 +102,7 @@
 }
 
 .dvSiteMap {
-    margin-right: 50px;
+    margin-right: 45px;
     margin-top: 50px;
 }
 
@@ -143,11 +143,11 @@
 }
 
 .SiteMapHolder {
-    width: 79%;
+    width: 77%;
 }
 
 .dvFollowUS {
-    width: 160px;
+    width: 206px;
     margin-top: 50px;
 }
 
@@ -665,6 +665,10 @@ a .imgFollowUS {
 
 #Client10 {
     background: url(../Images/Slider/BharatPetroleum_Logo.png) no-repeat center center;
+}
+
+#Client11 {
+    background: url(../Images/Slider/Google-logo.png) no-repeat center center;
 }
 
 .Testimonial {
