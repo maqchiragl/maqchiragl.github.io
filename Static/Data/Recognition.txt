@@ -52,21 +52,21 @@
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/MSPreferred.png" alt="Microsoft Preferred Vendor, Since 2005-2011" title="Microsoft Preferred Vendor, Since 2005-2011" />
+        <img src="../../Static/Images/Recognition/MSPreferred.png" alt="Microsoft Preferred Supplier, Since 2005" title="Microsoft Preferred Supplier, Since 2005" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Microsoft Preferred Vendor,  Since 2005-2011</p>
+        <p class="SemiBold Color3f3f3f">Microsoft Preferred Supplier,  Since 2005</p>
         <p>
-            MAQ Software is a preferred vendor for Microsoft since 2005. This confirms Microsoft’s trust in our quality and delivery model.
+            MAQ Software is a preferred supplier for Microsoft since 2005. This confirms Microsoft’s trust in our quality and delivery model.
         </p>
     </aside>
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/FastestGrowing.png" alt="Puget Sound Business" title="Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, Since 2005-2010" />
+        <img src="../../Static/Images/Recognition/FastestGrowing.png" alt="Puget Sound Business" title="Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, 2005-2010" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, Since 2005-2010</p>
+        <p class="SemiBold Color3f3f3f">Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, 2005-2010</p>
         <p>
             MAQ Software is recognized as one of the fastest growing private companies in Washington State for five consecutive years.
             (To make the Puget Sound Business Journal’s list of 100 Fastest-Growing Private Companies, a company must have achieved rapid growth for three years).

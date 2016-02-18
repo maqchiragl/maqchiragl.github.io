@@ -363,7 +363,7 @@ a .imgFollowUS {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url(../Images/Slider/Business-Intelligence.jpg) no-repeat 0 0;
+    background: url(../Images/Slider/Cloud.jpg) no-repeat 0 0;
     background-size: 100% 100%;
 }
 
@@ -576,6 +576,14 @@ a .imgFollowUS {
     margin-top: 30px;
     font-size: 35px;
     line-height: 40px;
+}
+
+.ClientCont .AboutTagLine{
+    margin-top: 0;
+}
+
+.ClientCont .MarginTop5 {
+    margin-bottom: 15px;
 }
 
 .BlockTag {
@@ -1315,4 +1323,7 @@ b {
     height: 62px;
     line-height: 20px;
     overflow: hidden;
+}
+img.WhyMAQ {
+    cursor: pointer;
 }

@@ -8,10 +8,10 @@
         pagelink4: "Client.txt"
     },
         oExpertise = {
-            pagelink0: "Business-Intelligence.txt",
+            pagelink3: "Business-Intelligence.txt",
             pagelink1: "SharePoint.txt",
             pagelink2: "App-Development.txt",
-            pagelink3: "Cloud.txt",
+            pagelink0: "Cloud.txt",
             pagelink4: "UX-Design.txt",
             pagelink5: "Power BI.txt"
         };
