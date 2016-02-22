@@ -108,6 +108,8 @@
 </article>
 <article class="RightArticle">
     <div class="AppDevTechLogo">
+		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/AppStore8_2x.png" alt="App Store" title="App Store" />
+		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Google_Play_logo.png" alt="Google Play" title="Google Play" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office.png" alt="Microsoft Office" title="Microsoft Office" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-Phone.png" alt="Windows Phone" title="Windows Phone" />
 		<img id="WinAzureImg" class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-8.png" alt="Windows" title="Windows" />

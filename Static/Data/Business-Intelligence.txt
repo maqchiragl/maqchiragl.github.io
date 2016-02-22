@@ -27,5 +27,8 @@
     </ul>
 </article>
 <article class="RightArticle">
-	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/SQL-Server.png" alt="SQL Server 2012 Business Intelligence" title="SQL Server 2012 Business Intelligence" />
+	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/SQL-Server.png" alt="SQL Server Business Intelligence" title="SQL Server Business Intelligence" />
+	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/amazon-redshift.png" alt="Amazon Redshift Business Intelligence" title="Amazon Redshift Business Intelligence" />
+	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/oracle-logo.png" alt="Oracle Business Intelligence" title="Oracle Business Intelligence" />
+	<img class="ProfileImage BlockTag MarginTop35 PadLeft4" src="../Static/Images/Expertise/MySQL.png" alt="MySQL Business Intelligence" title="MySQL Business Intelligence" />
 </article>

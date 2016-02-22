@@ -12,7 +12,7 @@
                    "../../Static/Images/Slider/UX-Design.jpg"],
         imageTitle: ["Cloud",
                      "Business Intelligence",
-                     "Power BI",
+                     "Visual Insights",
                      "SharePoint",
                      "App Development",
                      "UX Design"],
