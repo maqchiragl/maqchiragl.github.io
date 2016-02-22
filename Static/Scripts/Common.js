@@ -15,7 +15,7 @@ Date.prototype.format = function () {
 $(document).ready(function () {
     "use strict";
     $('html').click(function (evt) {
-        if (0 === $(evt.target).parents('#SiteNavigation').length && 0 === $(evt.target).parents('.MobileNavIcon').length && !$(evt.target).hasClass('MobileNavIcon')) {
+        if (0 === $(evt.target).parents('#SiteNavigation').length && 0 === $(evt.target).parents('.MobileNavIcon').length && !$(evt.target).hasClass('MobileNavIcon') && $(window).width() < 599) {
             $(".SecondlevelNav, #SiteNavigation").slideUp();
         }
     });
@@ -23,6 +23,7 @@ $(document).ready(function () {
         event.stopPropagation();
         if ($(".MobileNavIcon").css("display") !== "none") {
             if ($(this).hasClass("HaveSubNav")) {
+                $(".SecondlevelNav").slideUp();
                 $(this).next(".SecondlevelNav").slideToggle(500);
                 return false;
             }
