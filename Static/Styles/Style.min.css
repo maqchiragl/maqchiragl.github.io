@@ -428,7 +428,7 @@ a .imgFollowUS {
 }
 
 .MgnR65 {
-    margin-right: 6%;
+    margin-right: 13%;
 }
 
 .dvContentHolder {
@@ -1335,4 +1335,10 @@ i {
 }
 a img {
     cursor: pointer;
+}
+.aSiteLinks{
+    color: #222;
+}
+.selectedTab{
+    color: #bb141a;
 }
