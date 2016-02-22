@@ -1,12 +1,12 @@
-﻿<h1 class="DataTitle SemiBold Color58585a">Our Achievements</h1>
+﻿<h1 class="DataTitle SemiBold Color58585a">Recognition</h1>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
         <img src="../../Static/Images/Recognition/Inc5000.png" alt="Inc. 5000, Fastest Growing Companies in America, 2007-2012" title="Inc. 5000, Fastest Growing Companies in America, 2007-2015" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Inc. 5000, Fastest Growing Companies in America, 2007-2015</p>
+        <p class="SemiBold Color3f3f3f">7 Time Honoree, Inc. 5000, Fastest Growing Companies in America</p>
         <p>
-            For the 7th time, MAQ Software made Inc. magazine’s annual list of the fastest-growing, private companies in America. Only 385 companies have appeared on the list 7+ times in the last 12 years. Thanks to all our clients and team members for helping us achieve this rare honor.</p>
+            MAQ Software is honored to be listed on the prestigious Inc. 5000 list for the 7th time, a rare achievement. Since 2007, Inc. magazine has recognized 20,263 unique companies on its Inc. 5000 list based on the sales growth of the companies. Only 585 companies have appeared on the Inc. 5000 list seven or more times.</p>
         <p class="DataSubContent">
             For more than 30 years, Inc.’s list has served as evidence of the significant accomplishments of enterprises such as Intuit, 
             Zappos, Under Armour, Microsoft, Jamba Juice, Timberland, Visa, Clif Bar, Patagonia and Oracle.
@@ -18,7 +18,7 @@
         <img src="../../Static/Images/Recognition/BSI.png" alt="ISO 27001:2013 – Information Security, 2015" title="ISO 27001:2013 – Information Security, 2015" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">ISO 27001:2013 – Information Security, Since 2015</p>
+        <p class="SemiBold Color3f3f3f">ISO 27001:2013 – Information Security</p>
         <p>
             MAQ Software was certified ISO 27001:2013 by British Standards Institution.                            
         </p>
@@ -33,18 +33,18 @@
         <img src="../../Static/Images/Recognition/Partner.png" alt="Microsoft Partner" title="Microsoft Gold Partner for Data Analytics, Data Platform and Application Development" width="133" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">MAQ Software is a Microsoft Gold Certified Partner</p>
+        <p class="SemiBold Color3f3f3f">Microsoft Gold Certified Partner</p>
         <p>
-            MAQ Software has achieved Gold Certification in the Microsoft Partner Program for Data Analytics, Data Platform and Application Development which acknowledges our competencies and specializations in Microsoft solutions.
+            Microsoft recognizes MAQ Software as a Partner with Gold competencies in Data Analytics, Data Platform and Application Development which acknowledges our competency and expertise in Microsoft solutions.
 			</p>
     </aside>
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/Amazon_Partner.png" alt="Amazon Consulting Partner, Since 2014" title="Amazon Consulting Partner, Since 2014" />
+        <img src="../../Static/Images/Recognition/Amazon_Partner.png" alt="Amazon Consulting Partner" title="Amazon Consulting Partner" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Amazon Consulting Partner, Since 2014</p>
+        <p class="SemiBold Color3f3f3f">Amazon Consulting Partner</p>
         <p>
             MAQ Software is a Consulting Partner for the Amazon Web Services based on our technical expertise and verified client references.                            
         </p>
@@ -55,7 +55,7 @@
         <img src="../../Static/Images/Recognition/MSPreferred.png" alt="Microsoft Preferred Supplier, Since 2005" title="Microsoft Preferred Supplier, Since 2005" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Microsoft Preferred Supplier,  Since 2005</p>
+        <p class="SemiBold Color3f3f3f">Microsoft Preferred Supplier</p>
         <p>
             MAQ Software is a preferred supplier for Microsoft since 2005. This confirms Microsoft’s trust in our quality and delivery model.
         </p>
@@ -63,17 +63,15 @@
 </section>
 <section class="Clear TopMargin LeftArticle FullWidth">
     <aside class="RecognitionImage FloatLeft">
-        <img src="../../Static/Images/Recognition/FastestGrowing.png" alt="Puget Sound Business" title="Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, 2005-2010" />
+        <img src="../../Static/Images/Recognition/FastestGrowing.png" alt="Puget Sound Business" title="Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State" />
     </aside>
     <aside class="RecognitionContent FloatLeft">
-        <p class="SemiBold Color3f3f3f">Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State, 2005-2010</p>
+        <p class="SemiBold Color3f3f3f">Puget Sound Business Journal's 100 Fastest-Growing Private Companies in Washington State</p>
         <p>
             MAQ Software is recognized as one of the fastest growing private companies in Washington State for five consecutive years.
-            (To make the Puget Sound Business Journal’s list of 100 Fastest-Growing Private Companies, a company must have achieved rapid growth for three years).
         </p>
         <p class="DataSubContent">
-            MAQ Software is also featured in the Hall of Fame. (For companies that have made to the list four or more years, the Business Journal 
-            acknowledges by adding them to the Hall of Fame).
+            MAQ Software is also featured in the Hall of Fame (companies that have made to the list four or more years, the Business Journal acknowledges by adding them to the Hall of Fame).
         </p>
     </aside>
 </section>
