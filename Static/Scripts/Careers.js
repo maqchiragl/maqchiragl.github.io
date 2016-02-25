@@ -40,6 +40,10 @@
                 title: {
                     "#text": "Systems Engineer"
                 }
+            }, {
+                title: {
+                    "#text": "Development Operations Engineer"
+                }
             }
         ],
         oNewsData = null,
