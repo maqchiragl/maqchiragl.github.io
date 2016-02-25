@@ -153,17 +153,14 @@ function redirect() {
         loadPage('CareersinHyd');
         $('.CareersTab').addClass('selectedTab');
         document.title = 'Careers in Hyderabad - MAQ Software';
-        setTimeout(careersInHyd, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careersinmumbai'.toLowerCase())) {
         loadPage('CareersinMumbai');
         $('.CareersTab').addClass('selectedTab');
         document.title = 'Careers in Mumbai - MAQ Software';
-        setTimeout(careersInMumbai, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careerinus'.toLowerCase())) {
         loadPage('CareerinUS');
         $('.CareersTab').addClass('selectedTab');
         document.title = 'Careers in US - MAQ Software';
-        setTimeout(careersInUS, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careers'.toLowerCase())) {
         loadPage('Careers');
         $('.CareersTab').addClass('selectedTab');
