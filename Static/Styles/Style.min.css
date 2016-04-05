@@ -1283,7 +1283,7 @@ b {
     }
 
         #ProfileData ul li {
-            list-style: decimal outside;
+            list-style: disc outside;
             margin: 1em;
         }
 
