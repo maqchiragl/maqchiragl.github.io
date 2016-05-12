@@ -297,7 +297,7 @@ of those sections to manage the look and feel of the site. */
 @media (min-width: 768px) and (max-width: 991px) {
     #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
         font: normal 12px "SEGOE UI";
-        line-height: 24px;
+        line-height: 20px;
     }
 
     .card .learnMoreLink {
