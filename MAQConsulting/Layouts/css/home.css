@@ -1,0 +1,1558 @@
+﻿@font-face {
+    font-family: 'Segoe UI';
+    src: url('../../fonts/SEGOEUI.TTF') format('truetype');
+}
+/*Validation Error: 0*/
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+#hireTalentContainer .row {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.container iframe {
+    width: 100%;
+    height: 800px;
+    border: 0;
+}
+
+.detailsJobDescription div p:first-child, .detailsJobDescription > div > div > div > div > div:first-child {
+    max-width: calc(100% - 205px);
+}
+
+.detailsJobDescription {
+    margin-bottom: 25px;
+}
+
+.detailsJobDescription ul:last-child {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contractServices{
+    margin-top: -60px;
+}
+
+.talentEnquiries{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+.talentEnquirySection{
+    border-top: 3px solid #e74c3c;
+    padding-top: 50px;
+}
+
+.navbar{
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: right;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+#page-top a {
+    outline: none;
+}
+
+#introductionSection {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+#contactSection {
+    background: #fff;
+}
+
+
+.navbar-default {
+    background-color: #fff;
+}
+#logoContainer .navbar-brand.page-scroll {
+    padding-top: 20px;
+}
+@media(max-width: 991px) {
+    #companyLogo {
+        height: 20px;
+    }
+
+    .navbar #siteNavigationContainer #siteNavigation {
+        margin-top: 12px;
+    }
+
+        .navbar #siteNavigationContainer #siteNavigation > li {
+            margin-right: 5px;
+        }
+
+    #footerSection #footerText {
+        padding-left: 0;
+    }
+
+    #hireTalentContainer .contractServices{
+        margin-top: -120px;
+    }
+
+    #hireTalentContainer .talentEnquiries{
+        bottom: 30px;
+    }
+
+    .talentEnquirySection{
+        padding-top: 110px;
+    }
+}
+
+@media (max-width: 767px) {
+    #companyLogo {
+        height: 20px;
+    }
+
+    .jumbotron h1, .jumbotron .h1 {
+        font: 28px 'SEGOE UI', sans-serif;
+    }
+
+    #bannerContainer.jumbotron p {
+        font: 16px "SEGOE UI", sans-serif;
+    }
+
+    .contactContainer #contactInfo .contactRowTitle {
+        font: bold 16px "SEGOE UI", sans-serif;
+    }
+
+    .contactContainer #contactInfo .contactRowContent {
+        font: 15px "SEGOE UI", sans-serif;
+    }
+
+    #contactSection .socialContent {
+        padding-right: 10px;
+    }
+
+    .socialContent {
+        padding-top: 70px;
+    }
+
+    .sectionHeaderContainer .sectionHeader {
+        padding: 0 20px;
+    }
+
+
+    #hireTalentContainer #expertiseContainer .designSection {
+        margin-top: 40px;
+    }
+
+    #hireTalentContainer #expertiseContainer .writingSection {
+        margin-top: 40px;
+    }
+
+    #benefitsSectionContainer #benefitsCardsRow .column2Cards {
+        margin-top: 40px;
+    }
+
+    #mapContainer #directionBtnContainer #show, #mapContainer #directionBtnContainer #clear {
+        font: normal 12px "SEGOE UI", sans-serif;
+        margin-top: 25px;
+    }
+
+    #page-top #hireTalentContainer {
+        padding: 35px 5px;
+    }
+
+    #page-top #benefitsSectionContainer {
+        padding: 35px 5px;
+    }
+
+    #page-top #contactInfo {
+        padding: 35px 5px;
+    }
+
+    #page-top #mapContainer {
+        padding: 35px 5px;
+    }
+
+    #talentEnquirySection {
+        padding-bottom: 50px;
+    }
+
+    #jobListingContainer #resetSearch {
+        margin-bottom: 42px;
+    }
+
+    #reachUsContainer {
+        margin-top: 70px;
+    }
+
+    #jobDetails #jobActionBtnContainer #applyJobBtn,
+    #jobDetails #jobActionBtnContainer #sendToFriendBtn,
+    #jobDetails #jobActionBtnContainer #backToJobsBtn {
+        font: 14px "SEGOE UI";
+    }
+
+    .container #logoContainer {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar .container, .row .container {
+        padding: 0;
+    }
+
+    #siteNavigation .page-scroll{
+        margin-left: 15px;
+    }
+    .navbar-brand.page-scroll{
+        padding-left: 20px;
+    }
+    
+    #logoContainer .navbar-brand.page-scroll {
+        padding-top: 15px;
+    }
+
+    #siteNavigationContainer #siteNavigation .active .page-scroll{
+        border-bottom: none;
+    }
+    
+    #siteNavigationContainer {
+        border-bottom: 5px solid #e74c3c;
+    }
+    
+    #findJobsRow .container #jobDescriptionContainer {
+        padding: 25px 15px;
+    }
+
+    #contactInfo div {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    #jobListingContainer #searchJobListing {
+        width: 100%;
+    }
+
+    #hireTalentContainer .contractServices{
+        margin-top: 0;
+    }
+
+    #hireTalentContainer .talentEnquiries{
+        position: relative;
+        padding-bottom: 10px;
+        margin-top: 34px;
+    }
+
+    .talentEnquirySection{
+        border-top: none;
+        padding-top: 0;
+    }
+
+    #introductionSection div.jumbotron{
+        background-size: auto 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
+        font: normal 16px "SEGOE UI";
+        line-height: 24px;
+    }
+
+    .card .learnMoreLink {
+        font: 600 14px "SEGOE UI";
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
+        font: normal 12px "SEGOE UI";
+        line-height: 24px;
+    }
+
+    .card .learnMoreLink {
+        font: 600 14px "SEGOE UI";
+    }
+
+    #mapContainer #directionBtnContainer #show, #mapContainer #directionBtnContainer #clear {
+        font: normal 12px "SEGOE UI", sans-serif;
+    }
+
+    #logoContainer .navbar-brand.page-scroll {
+        padding-top: 24px;
+    }
+
+    #benefitsSectionContainer #benefitsTextRow .benefitsRowData, #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
+        font-size: 13px;
+    }
+
+    #introductionSection div.jumbotron{
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width:628px) {
+    #benefitsCardsRow .card{
+        height: 100%;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #hireTalentContainer #expertiseContainer .designSection {
+        margin-top: 40px;
+    }
+
+    .contractServices{
+        margin-top: -100px;
+    }
+}
+
+@media (max-width:418px) {
+    #hireTalentBtn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:433px) {
+    #expertiseContainer .media {
+        display: none;
+    }
+}
+
+@media (min-width:252px) and (max-width:291px) {
+    #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
+        font: normal 9px "SEGOE UI";
+        line-height: 16px;
+    }
+}
+
+@media (max-width:251px) {
+
+    #benefitsSectionContainer #benefitsCardsRow .benefitsCardData {
+        font: normal 8px "SEGOE UI";
+        line-height: 12px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font: 600 50px "SEGOE UI", sans-serif;
+        color: #333;
+    }
+}
+
+@media (max-width:674px) {
+
+    #jobDescriptionContainer .detailsJobDescription {
+        top: 0;
+    }
+
+    #jobActionBtnContainer #applyJobBtn, #jobActionBtnContainer #sendToFriendBtn, #jobActionBtnContainer #backToJobsBtn {
+        width: 100%;
+        float: left;
+    }
+
+    #findJobsRow #jobActionBtnContainer {
+        width: 100%;
+    }
+
+    #jobListingsData .pager li > a,
+    #jobListingsData .pager li > span {
+        padding: 5px 10px;
+    }
+
+    #jobListingsData .pagerDisable,
+    #jobListingsData .pager > li:last-child,
+    #jobListingsData .pager > li:first-child {
+        padding: 10px 10px;
+    }
+
+    .detailsJobDescription div p:first-child, .detailsJobDescription > div > div > div > div > div:first-child {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:620px) {
+    #jobListingContainer #jobListings tbody > tr:first-child > th {
+        display: none;
+    }
+
+    #jobListingContainer #jobListings tr, #jobListings th, #jobListings td {
+        display: block;
+        height: auto;
+    }
+
+    #jobListingContainer #jobListings td {
+        border-top: none;
+    }
+
+    #jobListingContainer #jobListings tr td:first-child {
+        border-top: 1px solid #333;
+        font-weight: bold;
+    }
+
+    #jobListingContainer #jobListings tr:first-child td:first-child {
+        border-top: 0;
+    }
+
+    #jobListingContainer #jobListingsData #jobListings .magnify-preview > td {
+        border: 0;
+    }
+
+    #jobListingContainer #jobListings {
+        width: 100%;
+    }
+
+    #jobListings > tbody > tr:last-child > td:last-child {
+        border-bottom: 1px solid #333;
+    }
+
+    #jobListings > tbody > tr > td {
+        border-right: 1px solid #333;
+        border-left: 1px solid #333;
+        padding: 1px 10px;
+    }
+}
+
+@media (max-width:488px) {
+    #jobListingContainer #jobListingsData .pager li > a,
+    #jobListingContainer #jobListingsData .pager li > span {
+        padding: 5px 5px;
+    }
+
+    #jobListingContainer #jobListingsData .pagerDisable,
+    #jobListingContainer #jobListingsData .pager > li:last-child,
+    #jobListingContainer #jobListingsData .pager > li:first-child {
+        padding: 5px 5px;
+    }
+    #page-top .sectionHeaderContainer, .sectionHeaderContainer .sectionHeader {
+        height: 60px;
+    }
+}
+
+@media (max-width:368px) {
+    #findJobsRow #jobListingContainer #jobListingsData .pager li > a,
+    #findJobsRow #jobListingContainer #jobListingsData .pager li > span {
+        padding: 3px 1px;
+        font-size: 8px;
+    }
+
+    #findJobsRow #jobListingContainer #jobListingsData .pagerDisable,
+    #findJobsRow #jobListingContainer #jobListingsData .pager > li:last-child,
+    #findJobsRow #jobListingContainer #jobListingsData .pager > li:first-child {
+        padding: 4px 6px;
+        font-size: 8px;
+    }
+
+    .mailLink {
+        font-size: 12px !important;
+    }
+}
+
+#bannerContainer {
+    height: 100%;
+    padding: 125px 0;
+}
+
+
+    #bannerContainer .bannerTitle {
+        margin-top: 25px;
+        margin-bottom: 1px;
+    }
+
+
+    #bannerContainer .bannerSubTitle {
+        margin-bottom: 25px;
+    }
+
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font: 20px "SEGOE UI";
+    font-weight: 600;
+    color: #333;
+}
+
+
+div.jumbotron {
+    background-image: url('../images/homeBackground.jpg');
+    background-size: 100% 100%;
+}
+
+@media (max-height: 659px) {
+    #introductionSection div.jumbotron{
+        background-size: 100% 120%;
+    }
+}
+@media (max-height: 545px) {
+    #introductionSection div.jumbotron{
+        background-size: 100% 140%;
+    }
+}
+@media (max-height: 460px) {
+    #introductionSection div.jumbotron{
+        background-size: 100% 170%;
+    }
+}
+@media (max-height: 659px) and  (max-width: 991px){
+    #introductionSection div.jumbotron{
+        background-size: auto 100%;
+    }
+}
+.container #bannerContainer.jumbotron, .container-fluid #bannerContainer.jumbotron {
+    border-radius: 0;
+}
+
+#siteNavigation .page-scroll {
+    outline: none;
+    color: #333;
+    font: normal 16px "SEGOE UI";
+}
+
+
+#siteNavigation .active .page-scroll {
+    background-color: #fff;
+    color: #e74c3c;
+    border-bottom: 5px solid #e74c3c;
+    padding-bottom: 8px;
+}
+
+
+#hireTalentBtn, #findWorkBtn {
+    height: 42px;
+    width: 164px;
+    padding: 8px;
+    font: 16px "SEGOE UI", sans-serif;
+    border-radius: 0;
+    color: #333;
+    border: 2px solid #02050d;
+    margin-right: 20px;
+    background-color: rgba(255,255,255,0);
+}
+
+
+    #findWorkBtn:hover, #hireTalentBtn:hover, #show:hover, #clear:hover {
+        color: #fff;
+        background-color: #e74c3c;
+        border: 2px solid #e74c3c;
+    }
+
+.sectionHeaderContainer {
+    background-color: #e74c3c;
+    height: 90px;
+}
+
+    .sectionHeaderContainer h1 {
+        color: #fff;
+        font: bold 30px "SEGOE UI";
+        margin: 0;
+        padding: 20px 15px;
+    }
+
+
+
+.sectionHeader {
+    padding-left: 0;
+    height: 90px;
+}
+
+    .sectionHeader::after {
+        position: absolute;
+        top: 100%;
+        left: 55%;
+        margin-left: -50%;
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-top: solid 8px #e74c3c;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+    }
+
+/*Contacts Section*/
+.contactContainer {
+    background-color: #333;
+    padding: 0 5px;
+}
+
+#contactInfo {
+    padding: 70px 15px;
+    color: #fff;
+}
+
+
+.contactContainer .contactRowTitle {
+    color: #fff;
+    font: bold 20px "SEGOE UI", sans-serif;
+    margin-bottom: 32px;
+}
+
+
+#contactInfo .contactRowContent {
+    font: 15px "SEGOE UI", sans-serif;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: justify;
+}
+
+
+#contactInfo :last-child.contactRowContent {
+    margin-bottom: 0;
+}
+
+#contactSection .socialContent .contactRowContent {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.contactRowContent > img{
+    margin-right: 10px;
+}
+
+#contactSection .socialContent {
+    padding-right: 0;
+}
+
+.rightGap {
+    margin-right: 10px;
+    display: inline;
+}
+
+#mailJobs {
+    color: #fff;
+}
+
+#socialIconContainer {
+    display: inline-block;
+}
+
+    #socialIconContainer span {
+        display: block;
+        width: 44px;
+        float: left;
+        margin-right: 15px;
+        text-align: center;
+        height: 42px;
+        cursor: pointer;
+    }
+
+    #socialIconContainer #twitterLink span:hover {
+        background-color: #4099FF;
+    }
+
+    #socialIconContainer #linkedInLink span:hover {
+        background-color: #0077B5;
+        margin-right: 0;
+    }
+
+    #socialIconContainer #facebookLink span:hover {
+        background-color: #3B5998;
+    }
+
+    #socialIconContainer #linkedInLink span {
+        margin-right: 0;
+    }
+
+/*Hire Talent Section*/
+#hireTalentContainer {
+    padding: 67px 16px;
+}
+
+
+    #hireTalentContainer .hireContentTitle, #benefitsSectionContainer .benefitsRowTitle, #mapContainer .directionTitle, #turnTitle, .total #totalDistance {
+        color: #333;
+        font: bold 20px "SEGOE UI", sans-serif;
+        margin-bottom: 15px;
+        letter-spacing: -0.025em;
+    }
+
+
+
+
+    #hireTalentContainer .hireContentData, #benefitsSectionContainer .benefitsRowData, #benefitsCardsRow .benefitsCardData {
+        color: #333;
+        font: normal 16px "SEGOE UI", sans-serif;
+        line-height: 23px;
+        text-align: justify;
+        letter-spacing: -0.02em;
+        text-justify: inter-word;
+        word-break: normal;
+    }
+
+
+
+
+#expertiseContainer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #expertiseContainer ul li {
+        margin-bottom: 10px;
+        word-break: break-all;
+    }
+
+
+
+#expertiseContainer img {
+    width: 100%;
+}
+
+
+#hireTalentContainer #expertiseLabel {
+    margin-bottom: 26px;
+    padding-left: 15px;
+}
+
+
+
+#expertiseContainer ul li:last-child {
+    margin-bottom: 0;
+}
+
+#hireTalentContainer #contractServiceData {
+    margin-bottom: 27px;
+}
+
+#hireTalentContainer #whenToUseContractData {
+    margin-bottom: 33px;
+    padding-left: 15px;
+}
+
+
+
+
+#hireTalentContainer #projectWorkData {
+    margin-bottom: 34px;
+}
+
+
+
+/*Benefits Section*/
+#benefitsSectionContainer {
+    padding: 67px 15px 73px 15px;
+}
+
+
+#benefitsTextRow p:last-child {
+    margin-bottom: 0;
+}
+
+#benefitsSection :last-child.row {
+    background-color: #fff;
+}
+
+
+
+
+#benefitsCardsRow :last-child.card {
+    margin-bottom: 0;
+}
+
+.card {
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem;
+    box-shadow: 1px 2px 8px #aaa;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    height: 305px;
+}
+
+
+#benefitsTextRow {
+    margin-bottom: 65px;
+}
+
+#benefitsCardsRow .benefitsCardTitle {
+    color: #484848;
+    font: bold 16px "SEGOE UI", sans-serif;
+    margin-bottom: 8px;
+}
+
+/*Direction Section*/
+#mapContainer {
+    padding: 69px 15px;
+}
+
+#mapviewer {
+    position: relative;
+    height: 320px;
+}
+
+#directionBtnContainer {
+    margin-top: 20px;
+}
+
+#directionInput {
+    width: 100%;
+    height: 42px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0 10px;
+}
+
+.helpText {
+    color: #b2b2b2 !important;
+    font: italic lighter 16px "SEGOE UI", sans-serif;
+}
+
+
+
+
+
+.content {
+    margin-top: 11px;
+    font-size: 13px;
+    color: #474a48;
+    line-height: 19px;
+}
+
+.titleMessageDiv {
+    color: #474a48;
+    font-family: "segoe UI";
+    font-size: 14px;
+    font-weight: normal !important;
+    float: left;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+#directions {
+    color: #474a48 !important;
+    font-family: "segoe UI", Tahoma, Verdana, Sans-Serif;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    #directions #turnTitle, #directions .total {
+        margin-top: 49px;
+        margin-bottom: 21px;
+    }
+
+#show, #clear {
+    border: 2px solid #656565;
+    height: 42px;
+    width: 100%;
+    font: normal 15px "SEGOE UI", sans-serif;
+    color: #484848;
+    background-color: rgba(255,255,255,0);
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+
+
+/*#directionBtnContainer #show {
+    height: 42px;
+    width: 174px;  
+}*/
+
+.total #totalDistance {
+    margin-bottom: 20px;
+}
+
+
+/*Find Jobs Section*/
+#findJobsRow {
+    color: #333;
+}
+
+.loadingIcon, .contactLoadingIcon {
+    padding: 200px 15px;
+    margin: 0 auto;
+    min-height: 976px;
+}
+
+.loadingIcon {
+    padding: 350px 15px;
+}
+
+#jobHeadImage, .FB, #ccpBackLink {
+    display: none;
+}
+
+#jobDescriptionTitle {
+    font: bold 30px "SEGOE UI";
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.jobTitleAttribute {
+    font: bold 18px "SEGOE UI";
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.jobAttributeData {
+    margin-bottom: 34px;
+}
+
+#applyJobBtn, #sendToFriendBtn, #backToJobsBtn, #resetSearch {
+    color: #333;
+    width: 164px;
+    height: 42px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #ccc;
+    margin-bottom: 7px;
+    font: 16px "SEGOE UI";
+    padding-bottom: 5px;
+    background-color: #EAEAEA;
+}
+
+#jobDetails > div:nth-child(1) {
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.mailLink, .detailsJobDescription a {
+    color: #e74c3c;
+}
+
+#responsibilitiesList ol, #qualificationList ol {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+#applyJobBtn:hover, #sendToFriendBtn:hover, #backToJobsBtn:hover, #resetSearch:hover {
+    background-color: #e74c3c;
+    border: 2px solid #e74c3c;
+    color: #fff;
+}
+
+#companyDescription {
+    margin-bottom: 34px;
+    letter-spacing: 0.025em;
+}
+
+#responsibilitiesList, #qualificationList {
+    margin-bottom: 36px;
+}
+
+#jobTitle {
+    border-bottom: 1px solid #333;
+    padding-bottom: 11px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font: bold 30px "SEGOE UI";
+    color: #333;
+    line-height: 25px;
+}
+
+#jobDescriptionContainer .c1 {
+    clear: both;
+    float: left;
+}
+
+#jobDescriptionContainer p .c1 {
+    width: 100%;
+}
+
+
+
+#jobDescriptionContainer strong {
+    font: bold 20px "SEGOE UI";
+    text-transform: uppercase;
+}
+
+.detailsJobDescription ul {
+    padding-left: 15px;
+}
+
+#jobDescriptionContainer .c2 {
+    margin-bottom: 4px;
+    display: inline-block;
+    word-wrap: break-word;
+    font: 16px "SEGOE UI";
+}
+
+
+
+#jobDetails {
+    display: inline;
+}
+
+#jobActionBtnContainer {
+    display: block;
+    float: right;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    width: 205px;
+}
+
+#jobListingsData .pagination {
+    margin: 0 auto;
+    display: block;
+}
+
+#jobListingContainer {
+    padding: 76px 15px 60px 15px;
+}
+
+#searchJobListing {
+    height: 41px;
+    width: 100%;
+    padding: 0 18px;
+    margin-bottom: 32px;
+    color: #333;
+}
+
+
+#jobListingsData .pagination .pager > li > a {
+    border: 0;
+    background: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.pagerDisable, .pager > li:last-child, .pager > li:first-child {
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: #EAEAEA;
+    color: #333;
+}
+
+    .pager > li:last-child:hover, .pager > li:first-child:hover {
+        background-color: #e74c3c;
+        color: #fff;
+    }
+
+#jobListingsData .pagination .pager .active > a {
+    color: #e74c3c;
+}
+
+.sortingHeader span, .sortingHeader img {
+    display: none;
+}
+
+.sortingHeader > a, .sortingHeader > a:hover {
+    cursor: default;
+    color: #333;
+    text-decoration: none;
+}
+
+#jobListings > tbody > tr > th {
+    width: 158px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+
+
+#jobListings .rowEven, #jobListings .rowOdd {
+    height: 30px;
+}
+
+#jobListings .jobID {
+    display: none;
+}
+
+#jobListings .jobTitle {
+    color: inherit;
+    text-decoration: none;
+}
+
+#jobListings .rowEven:hover, #jobListings .rowOdd:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#jobListings {
+    margin-bottom: 49px;
+    clear: both;
+}
+
+.learnMoreLink {
+    position: absolute;
+    bottom: 21px;
+    font: 600 16px "SEGOE UI";
+    color: #e74c3c;
+}
+
+    .learnMoreLink:hover {
+        color: #e74c3c;
+    }
+
+#hireTalentSection :last-child.row {
+    background-color: #fff;
+}
+
+.marketingSection, .writingSection, .designSection {
+    font: normal 16px "SEGOE UI";
+}
+
+#mapContainerRow {
+    background-color: #fff;
+}
+
+#benefitsTextRow :first-child.benefitsRowTitle {
+    margin-top: 0;
+}
+
+#benefitsTextRow .benefitsRowTitle {
+    margin-top: 33px;
+}
+
+#ccpBackImage {
+    display: none;
+}
+
+#jobDescriptionContainer {
+    padding: 25px 0;
+    padding-bottom: 0;
+    font: 16px "SEGOE UI";
+    padding-top: 33px;
+}
+
+#talentEnquiryList {
+    margin: 0;
+    padding: 0 15px;
+}
+
+
+#footerContainer {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    height: 64px;
+}
+
+
+
+#footerText {
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    padding-left: 15px;
+    width: 80%;
+    padding-left: 220px;
+}
+
+#footerSection .container > div:last-child {
+    width: 20%;
+    float: left;
+}
+
+.inqImageContainer {
+    float: right;
+    margin-right: 15px;
+}
+
+@media(max-width:625px) {
+    #footerSection .inqImageContainer > img {
+        width: 140px;
+    }
+
+    #footerSection #footerText {
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    body{
+        height: initial;
+    }
+
+    #bannerContainer{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:483px) {
+    #footerContainer #footerSection #footerText {
+        font: 11px "SEGOE UI";
+        margin-top: 2px;
+    }
+
+    #footerContainer #footerSection .inqImageContainer > img {
+        width: 80px;
+    }
+}
+
+@media (max-width:401px) {
+    #page-top #footerContainer #footerSection #footerText {
+        font: 8px "SEGOE UI";
+        margin-top: 6px;
+        width: 180px;
+    }
+
+    #page-top #footerContainer #footerSection .inqImageContainer > img {
+        width: 60px;
+    }
+
+    #footerContainer #footerSection .container > div:last-child {
+        width: 80px;
+    }
+}
+
+.inqImageContainer > img {
+    width: 160px;
+}
+
+#applyJobBtn {
+    padding: 8px 35px;
+    text-align: center;
+}
+
+#jobListingContainer > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#searchJobListing {
+    height: 41px;
+    width: 108%;
+    padding: 0 18px;
+    margin-bottom: 26px;
+    color: #333;
+}
+
+#jobListings > tbody > tr > th:nth-child(3) {
+    width: 379px;
+}
+
+#jobListings > tbody > tr > th:nth-child(2) {
+    width: 204px;
+}
+
+#jobListings > tbody > tr > th:nth-child(4) {
+    width: 171px;
+}
+
+#resetSearch {
+    width: 100%;
+}
+
+#logoContainer {
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 60px;
+}
+
+#siteNavigationContainer {
+    margin-right: 25px;
+    background: #fff;
+}
+
+@media(max-width:260px) {
+    #companyLogo {
+        height: 17px;
+    }
+}
+
+.navbar {
+    height: 70px;
+}
+
+#siteNavigation {
+    margin-top: 18px;
+}
+
+    #siteNavigation > li {
+        margin-right: 16px;
+    }
+
+        #siteNavigation > li:last-child {
+            margin-right: 0px;
+        }
+
+.contactLoadingIcon {
+    min-height: 0px;
+}
+
+#jobListings > tbody > tr:first-child > th > a {
+    font: bold 16px "SEGOE UI";
+    color: #333;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#jobListings > tbody .rowEven > td, #jobListings > tbody .rowOdd > td {
+    padding-left: 18px;
+    font: 15px "SEGOE UI";
+    cursor: pointer;
+}
+
+
+#jobListingsData .pagination .pagerDisable {
+    padding: 10px 43px;
+    border-color: gray;
+    cursor: default;
+    color: gray;
+}
+
+#jobListingsData .pagination .pagerDisable:hover {
+    background-color: transparent;
+}
+
+#jobDescriptionContainer .detailsJobDescription p {
+    text-align: justify;
+    text-justify: inter-word;
+    font: normal 16px "SEGOE UI";
+    line-height: 23px;
+}
+
+.dateDiv {
+    display: inline-block;
+    font: bold 20px "SEGOE UI";
+    margin-bottom: 11px;
+    width: 156px;
+    text-transform: uppercase;
+}
+
+#jobDetailPosted {
+    display: inline;
+    float: left;
+    font: normal 16px "SEGOE UI";
+}
+
+@media (max-width:480px) {
+    .sectionHeaderContainer .sectionHeader h1 {
+        font: bold 20px "SEGOE UI";
+        padding: 15px 0;
+    }
+}
+
+#jobDetails .detailsJobDescription ol {
+    margin: 0;
+    padding-left: 20px;
+    font: 16px "SEGOE UI";
+    letter-spacing: -0.02em;
+    line-height: 23px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style-type: disc;
+}
+
+.mailLink:hover {
+    color: #e74c3c;
+}
+
+[aria-expanded='true']#siteNavigationContainer, .collapsing#siteNavigationContainer {
+    margin-right: 0;
+}
+
+#mapContainer .directionTitle {
+    padding: 0 15px;
+}
+
+#benefitPackagesList {
+    padding-left: 15px;
+}
+
+.expertiseSectionTitle {
+    font: bold 20px "SEGOE UI";
+    margin-bottom: 19px;
+}
+
+#directHireSeriveData {
+    margin-bottom: 34px;
+}
+
+.spinner {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+
+    .spinner > div {
+        background-color: #e74c3c;
+        height: 100%;
+        width: 6px;
+        display: inline-block;
+        -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+        animation: stretchdelay 1.2s infinite ease-in-out;
+    }
+
+    .spinner .rect2 {
+        -webkit-animation-delay: -1.1s;
+        animation-delay: -1.1s;
+    }
+
+    .spinner .rect3 {
+        -webkit-animation-delay: -1.0s;
+        animation-delay: -1.0s;
+    }
+
+    .spinner .rect4 {
+        -webkit-animation-delay: -0.9s;
+        animation-delay: -0.9s;
+    }
+
+    .spinner .rect5 {
+        -webkit-animation-delay: -0.8s;
+        animation-delay: -0.8s;
+    }
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+
+/*Image hover*/
+
+.media {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.media__image {
+    display: block;
+}
+
+.media__body {
+    background: rgba(41, 128, 185, 0.7);
+    bottom: 0;
+    color: #fff;
+    font: 22px "SEGOE UI";
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 3.75em 3em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+
+    .media__body:hover {
+        opacity: 1;
+    }
+
+    .media__body:after,
+    .media__body:before {
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        bottom: 1em;
+        content: '';
+        left: 1em;
+        opacity: 0;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition: 0.6s 0.2s;
+        transition: 0.6s 0.2s;
+    }
+
+    .media__body:before {
+        border-bottom: none;
+        border-top: none;
+        left: 2em;
+        right: 2em;
+    }
+
+    .media__body:after {
+        border-left: none;
+        border-right: none;
+        bottom: 2em;
+        top: 2em;
+    }
+
+    .media__body:hover:after,
+    .media__body:hover:before {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .media__body h2 {
+        margin-top: 0;
+    }
+
+    .media__body p {
+        margin-bottom: 1.5em;
+    }
+
+.requiredInput#directionInput {
+    border: 1px solid #e74c3c;
+    color: #e74c3c !important;
+    font: 16px "SEGOE UI";
+    padding-bottom: 6px;
+}
+
+
+table {
+    width: 100%;
+    border: 0;
+}
+
+td {
+    float: none !important;
+    padding-right: 10px;
+    border: 0;
+}
+ 
+#jobListings a, #jobListings a:hover, #jobActionBtnContainer a, #jobActionBtnContainer a:hover {
+    color: inherit;
+    text-decoration: none;
+} 
+.jobHead {
+    font-weight: bold;
+    min-width: 80px;
+    display: inline-block;
+}

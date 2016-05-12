@@ -1,0 +1,18 @@
+﻿{
+  "ignore": [
+    "\\Scripts\\html5shiv.js",
+    "\\Scripts\\respond.min.js"
+  ],
+  "options": {
+    "predef": {
+      "document": true,
+      "$": true,
+      "window": true,
+      "setInterval": true,
+      "console": true
+    },
+    "nomen": true,
+    "plusplus": true,
+    "regexp": true
+  }
+}

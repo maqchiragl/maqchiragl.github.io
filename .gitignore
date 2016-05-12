@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MAQSoftware/v14/.suo
+/MAQConsulting/fonts/glyphicons-halflings-regular.eot
+/.vs/config/applicationhost.config
