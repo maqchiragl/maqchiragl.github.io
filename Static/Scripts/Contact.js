@@ -9,9 +9,9 @@
                 long: -122.133202
             },
             {
-                address: "36, Udyog Bhavan, Sonavala Road, Goregaon East, Mumbai 400 063, Maharashtra",
-                lat: 19.162275,
-                long: 72.85099
+                address: "201, Meadows Building, Sahar Plaza on Andheri Kurla Road, Andheri East, Mumbai 400 059, Maharashtra",
+                lat: 19.1128987,
+                long: 72.8685805
             },
             {
                 address: "Level 7, Astro, aVance Business Hub, Behind Dell Campus, HITEC City 2, Madhapur, Hyderabad 500 081, Andhra Pradesh",
