@@ -1334,6 +1334,10 @@ img.WhyMAQ {
     cursor: pointer;
 }
 
+td {
+    border: 1px solid;
+}
+
 /*Overrides*/
 i {
     font-style: italic;
