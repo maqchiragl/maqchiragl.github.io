@@ -1,6 +1,6 @@
-<h1 class="DataTitle SemiBold Color58585a">Business Intelligence</h1>
+<h1 class="DataTitle SemiBold Color58585a">Data Management & Analytics</h1>
 <article class="LeftArticle">
-    <img class="BlockTag ExpertiseImage" src="../../Static/Images/Expertise/Expertise-BI.jpg" alt="Business Intelligence" title="Business Intelligence" />
+    <img class="BlockTag ExpertiseImage" src="../../Static/Images/Expertise/Expertise-BI.jpg" alt="Data Management & Analytics" title="Data Management & Analytics" />
     <p class="DataSubContent">Thanks to our marketing domain expertise, we have successfully delivered a wide range of solutions including campaign management, website optimization, data analysis, and data warehousing. We have also delivered multiple database applications using data from a range of sales, and marketing databases of Fortune 500 companies.</p>
     <p class="DataSubContent SemiBold Color3f3f3f">Marketing campaign setup, reporting, and analysis</p>
     <ul class="MarginTop5 CircleBullets">

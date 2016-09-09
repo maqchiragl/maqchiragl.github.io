@@ -20,8 +20,8 @@
         <li>Use of the latest technologies</li>
     </ul>
 	<a target="_blank" href='http://www.microsoft.com/' ><div id="Client1" class="ClientImage" title="Microsoft"></div></a>
-	<a target="_blank" href='http://www.google.com/' ><div id="Client11" class="ClientImage" title="Google"></div></a>	
 	<a target="_blank" href='http://www.amazon.com/webservices/'><div id="Client3" class="ClientImage" title="Amazon"></div></a>
+	<a target="_blank" href='http://www.google.com/' ><div id="Client11" class="ClientImage" title="Google"></div></a>	
 	<a target="_blank" href='http://www.t-mobile.com/'><div id="Client5" class="ClientImage" title="T-Mobile"></div></a>
 	<a target="_blank" href='http://www.htc.com/in/'><div id="Client4" class="ClientImage" title="HTC"></div></a>
 	<a target="_blank" href='http://www.wunderman.com/' ><div class="ClientImage" id="Client2" title="Wunderman"></div></a>

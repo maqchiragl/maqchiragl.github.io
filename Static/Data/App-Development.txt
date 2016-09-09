@@ -2,45 +2,6 @@
 <article class="LeftArticle">
     <img class="BlockTag ExpertiseImage" src="../../Static/Images/Expertise/Expertise-App-Dev.jpg" alt="App Development" title="App Development" />
     <section class="OverflowHide">
-        <p class="Datatagline SemiBold m30 Color58585a">Windows Phone</p>
-        <p class="Pad10">We have over six years of experience in mobile application development across different platforms, including Windows Phone, iPhone, and Android. We understand how platforms evolve, and how to develop for scalability across platforms. We have already deployed over a hundred mobile applications and we are ready to take on your mobile project.</p>
-        <p class="DataSubContent">Some of our mobile products are:</p>
-        <ol class="Pad15 PadLeft10">
-            <li>1. Traffic Edge</li>
-            <li>2. Dialogs</li>
-            <li>3. Translate Edge</li>
-            <li>4. 2012 Apocalypse</li>
-        </ol>
-        <div class="SliderHolder m30">
-            <p class="AppDevSliderLabel FloatLeft">Phone Apps Delivered</p>
-            <div class="AppDevSlider FloatLeft">
-                <div id="WinPhoneLeftArrow" class="AppDevNavLeftArrow FloatLeft">
-                </div>
-                <div id="WPSlider" class="AppDevContent FloatLeft">
-                    <div class="AppSliderContentWrapper">
-                        <a target="_blank" href="http://www.edgeq.com/WindowsPhone8/MysteriousPlaces.aspx">
-                            <img alt="Mysterious Places" title="Mysterious Places" src="../Static/Images/Expertise/AppDevSlider/WinPhone/MysteriousPlaces.jpg" />
-                        </a>
-                        <a target="_blank" href="http://www.edgeq.com/iPhone/MythsandLegends.aspx">
-                            <img alt="Myths and Legends" title="Myths and Legends" src="../Static/Images/Expertise/AppDevSlider/WinPhone/MythsandLegends.jpg" />
-                        </a>
-                        <a target="_blank" href="http://www.edgeq.com/WindowsPhone8/PhotoHub.aspx">
-                            <img alt="Photo Hub" title="Photo Hub" src="../Static/Images/Expertise/AppDevSlider/WinPhone/PhotoHub.jpg" />
-                        </a>
-                        <a target="_blank" href="http://www.edgeq.com/WindowsPhone8/PlasticAnalyzer.aspx">
-                            <img alt="Plastic Analyzer" title="Plastic Analyzer" src="../Static/Images/Expertise/AppDevSlider/WinPhone/PlasticAnalyzer.jpg" />
-                        </a>
-                        <a target="_blank" href="http://www.edgeq.com/WindowsPhone8/TranslateEdge.aspx">
-                            <img alt="Translate Edge" title="Translate Edge" src="../Static/Images/Expertise/AppDevSlider/WinPhone/TranslateEdge.jpg" />
-                        </a>
-                    </div>
-                </div>
-                <div id="WinPhoneRightArrow" class="AppDevNavRightArrow FloatLeft">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Clear m30 OverflowHide">
         <p class="Datatagline SemiBold m30 Color58585a">Windows App Development</p>
         <p class="Pad10">We have expertise in building both retail and enterprise apps for Windows. We have integrated Federated Authentication, SharePoint Online and used Windows RT encryption in our apps. We have expertise in using both JavaScript and C# in our apps.</p>
         <div class="SliderHolder m30">
@@ -111,7 +72,6 @@
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/AppStore8_2x.png" alt="App Store" title="App Store" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Google_Play_logo.png" alt="Google Play" title="Google Play" />
 		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Office.png" alt="Microsoft Office" title="Microsoft Office" />
-		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-Phone.png" alt="Windows Phone" title="Windows Phone" />
 		<img id="WinAzureImg" class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Windows-8.png" alt="Windows" title="Windows" />
 	</div>
 </article>
