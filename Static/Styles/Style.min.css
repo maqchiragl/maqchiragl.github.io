@@ -1352,3 +1352,12 @@ a img {
     color: #0563C0;
     text-decoration: underline;
 }
+
+#DataSection.PrivacySection {
+    width: 100%;
+    width: calc(100% - 15px); /*Multiple width styles in case if old browser don't support calc()*/
+}
+    #DataSection.PrivacySection .PrivacyLastUpdated {
+        text-align: right;
+        font-size: 14px;
+    }
