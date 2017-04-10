@@ -33,7 +33,7 @@
     <p class="DataSubContent SemiBold Color3f3f3f">UI Design</p>
     <ul class="MarginTop5 CircleBullets">
         <li>Storyboard to obtain feedback from your organization's stakeholders and tailor the final product to your needs</li>
-        <li>Create user-friendly your dashboards, visuals and reports to be user-friendly</li>
+        <li>Create user-friendly your dashboards, visuals, and reports to be user-friendly</li>
         <li>Design a functional and usable shared information environment that is accessible to people from all levels of your organization, from business analysts to the executive team</li>
     </ul>	           
 </article>

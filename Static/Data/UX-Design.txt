@@ -29,7 +29,7 @@
 		<p class="ImageTitle">Responsive Web Design</p>
 	</div>
 	<div class = "UXImageCtr">
-		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Mobile-UX.png" alt="Mobile UX, IA and Visual Design" title="Mobile UX, IA and Visual Design" />
+		<img class="ProfileImage BlockTag MarginTop35" src="../Static/Images/Expertise/Mobile-UX.png" alt="Mobile UX, IA, and Visual Design" title="Mobile UX, IA, and Visual Design" />
 		<p class="ImageTitle">
 		Mobile UX, IA<br />
 		and Visual Design

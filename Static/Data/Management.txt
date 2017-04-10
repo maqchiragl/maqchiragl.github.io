@@ -6,7 +6,7 @@
         <div class="PersonDescHolder">            
                 <p>As the founder and the managing consultant of MAQ Software, Rajeev works with customers to plan and develop innovative applications on various technology platforms. 
                 Prior to founding MAQ Software, Rajeev worked at Microsoft Corporation in several product management groups including Visual C++, Microsoft Windows NT and 
-                Microsoft Exchange Server. His responsibilities included product planning, marketing strategy and execution of Web based programs to reach customers worldwide.</p>
+                Microsoft Exchange Server. His responsibilities included product planning, marketing strategy, and execution of Web-based programs to reach customers worldwide.</p>
                 <p class="DataSubContent">Rajeev holds a B. Tech. degree in Mechanical Engineering from the Indian Institute of Technology, Kharagpur, a Master's in Engineering from Iowa State University, 
                 and an MBA from the University of Michigan Business School, Ann Arbor.</p>
                 <p class="DataSubContent">Rajeev has been widely quoted on software industry issues in the media including the Seattle Times, Puget Sound Business Journal and BBC.</p>
@@ -22,7 +22,7 @@
                 Dilip also served as a Senior Development Engineer in the Exchange, LAN Manager, and Windows for Workgroups product teams and 
                 worked as a Program Manager for the System Management Server (SMS) development group.</p>
                 <p class="DataSubContent">Dilip has a deep understanding of software development and a broad range of technologies. 
-                He has a number of patents to his credit. He is author of several books including Inside Windows Storage published in 2003 by Addison Wesley.</p>
+                He has a number of patents to his credit. He is an author of several books including Inside Windows Storage published in 2003 by Addison Wesley.</p>
                 <p class="DataSubContent">Dilip holds a graduate degree in Electrical Engineering from Indian Institute of Technology, Bombay, and is a Microsoft Certified Systems Engineer (MCSE).</p>            
         </div>
     </section>

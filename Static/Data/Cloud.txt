@@ -2,7 +2,7 @@
 <article class="LeftArticle">
     <img class="BlockTag ExpertiseImage" src="../../Static/Images/Expertise/Expertise-Cloud.jpg" alt="Cloud" title="Cloud" />
     <p class="DataSubContent">We have been developing applications on Azure since it was released in 2010. 
-	We help you optimize and manage your cloud solutions in order to reduce the amount of time required to manage, maintain and deploy them and help you reduce your overall costs.</p>
+	We help you optimize and manage your cloud solutions in order to reduce the amount of time required to manage, maintain, and deploy them and help you reduce your overall costs.</p>
 	<p class="MarginTop35 SemiBold Color3f3f3f">Services</p>
     <ul class="CircleBullets">
 		<li>Develop and host custom applications with low cost strategy and high availability</li>
