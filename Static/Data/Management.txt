@@ -22,7 +22,7 @@
                 Dilip also served as a Senior Development Engineer in the Exchange, LAN Manager, and Windows for Workgroups product teams and 
                 worked as a Program Manager for the System Management Server (SMS) development group.</p>
                 <p class="DataSubContent">Dilip has a deep understanding of software development and a broad range of technologies. 
-                He has a number of patents to his credit. He is an author of several books including Inside Windows Storage published in 2003 by Addison Wesley.</p>
+                He has a number of patents to his credit. He is an author of several books, including Inside Windows Storage published in 2003 by Addison Wesley.</p>
                 <p class="DataSubContent">Dilip holds a graduate degree in Electrical Engineering from Indian Institute of Technology, Bombay, and is a Microsoft Certified Systems Engineer (MCSE).</p>            
         </div>
     </section>
