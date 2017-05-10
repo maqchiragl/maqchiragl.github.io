@@ -139,6 +139,7 @@ function successFunction(data) {
             getListings: "http://maqconsulting.catsone.com/careers/" + $(this).attr("href"),
             linkType: "pagination"
         };
+        location.href = '#findWorkSection';
         getJobListings(jsonData, successFunction);
         $(".loadingIcon").show();
         $("#jobListingContainer, #jobDescriptionContainer, #jobActionBtnContainer").hide();
@@ -161,7 +162,6 @@ function successFunction(data) {
     } else {
         $("#jobDetailPosted").after($("#jobActionBtnContainer"));
     }
-    location.href = '#findWorkSection';
 }
 
 // JQuery for page scrolling feature - requires jQuery Easing plugin
