@@ -6,6 +6,7 @@ var originalInput,
     linkType,
     jsonData;
 
+$('.currentYear').text(new Date().getFullYear());
 function scrollToID(id, speed) {
     "use strict";
     var offSet = 70,
@@ -160,6 +161,7 @@ function successFunction(data) {
     } else {
         $("#jobDetailPosted").after($("#jobActionBtnContainer"));
     }
+    location.href = '#findWorkSection';
 }
 
 // JQuery for page scrolling feature - requires jQuery Easing plugin
