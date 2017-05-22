@@ -151,6 +151,7 @@ function successFunction(data) {
             getListings: $(this).find(".jobTitle").attr("href"),
             linkType: "jobTitle"
         };
+        location.href = '#findWorkSection';
         getJobListings(jsonData, successFunction);
         sendToFriendTemplate = sendToFriendTemplate.replace("{1}", $(this).find(".jobTitle").attr("href"));
         $(".loadingIcon").show();
