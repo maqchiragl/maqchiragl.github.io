@@ -155,6 +155,7 @@ function successFunction(data) {
         sendToFriendTemplate = sendToFriendTemplate.replace("{1}", $(this).find(".jobTitle").attr("href"));
         $(".loadingIcon").show();
         $("#jobListingContainer, #jobDescriptionContainer, #jobActionBtnContainer").hide();
+        $(".applyLink").attr('href', $(this).find(".jobTitle").attr("href").replace('details','apply')+"&portalID=850");
     });
 
     if ($(window).width() <= 674) {
