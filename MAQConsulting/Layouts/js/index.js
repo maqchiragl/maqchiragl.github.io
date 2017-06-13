@@ -54,6 +54,10 @@ function setWaterMarkText() {
     });
 
 }
+String.prototype.replaceAll = function (search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
 function getJobListings(dataParams, successCallback) {
     "use strict";
     if (-1 === dataParams.getListings.indexOf('http://maqconsulting.catsone.com/careers/undefined')) {
@@ -62,13 +66,14 @@ function getJobListings(dataParams, successCallback) {
         catsoneUrl = 'http://maqconsulting.catsone.com/careers/index.php?m=portal&a=listings&sort=posted&sortDir=desc&page=' + $('.active.pageSelector > a:nth(0)').text();
     }
     linkType = dataParams.linkType;
+    catsoneUrl = catsoneUrl.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
     $.ajax({
-        url: 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from html where url="' + catsoneUrl + '"') + '&format=html',
+        url: "http://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent('select * from htmlstring where url="' + catsoneUrl + '"') + " and xpath='//body'&env=store://datatables.org/alltableswithkeys&format=html",
         type: 'GET',
         contentType: 'text/html; charset=UTF-8',
         dataType: 'jsonp',
         success: function (data) {
-            data = data.results[0].replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '').replace('src=\"/images/portal/rssIcon.png\"', '').replace('src=\"/images/dialogPointer.gif\"', '').replace('src=\"/images/datagrid/sortDesc.gif\"', '').replace('src=\"/images/icons/magnifier_medium.png\"', '').replace('src=\"/images/v3/poweredByCATS.png\"', '').replace('magnifier_medium.png ', '');
+            data = data.results[0].replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replaceAll('<result>', '').replaceAll('</result>', '').replaceAll('<body>', '').replaceAll('</body>', '').replaceAll(/<script[^>]*>[\s\S]*?<\/script>/gi, '').replaceAll('src=\"/images/portal/rssIcon.png\"', '').replaceAll('src=\"/images/dialogPointer.gif\"', '').replaceAll('src=\"/images/datagrid/sortDesc.gif\"', '').replaceAll('src=\"/images/icons/magnifier_medium.png\"', '').replaceAll('src=\"/images/v3/poweredByCATS.png\"', '').replaceAll('magnifier_medium.png ', '');
             data = data.replace('http://www.maqconsulting.com/Static/Images/Inc500.png', ' ').replace('http://www.maqconsulting.com/Static/Images/header_doubleSquareEnding.png', ' ').replace(new RegExp('http://www.maqconsulting.com/Static/Images/facebook_large.png', 'g'), ' ').replace(new RegExp('http://maqconsulting.com/Static/Images/MAQConsulting_logo.png', 'g'), ' ').replace(new RegExp('http://www.maqconsulting.com/Static/Images/linkedin_large.png', 'g'), ' ').replace(new RegExp('http://www.maqconsulting.com/Static/Images/twitter_large.png', 'g'), ' ').replace(new RegExp('images/icons/magnifier_medium.png', 'g'), '');
             data = data.replace(new RegExp('http://www.maqconsulting.com/Static/Images/MAQConsulting_logo.png', 'g'), ' ');
             $("#jobListingContainer").append('<div class="hidden">' + data + '</div>');
