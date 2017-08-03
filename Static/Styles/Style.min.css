@@ -433,7 +433,8 @@ a .imgFollowUS {
 }
 
 .MgnR65 {
-    margin-right: 13%;
+    margin-left:1%;
+    margin-right: 10%;
 }
 
 .dvContentHolder {
@@ -945,6 +946,10 @@ a .imgFollowUS {
 
 .DataSubContent {
     margin-top: 15px;
+}
+
+.DataSubContentContact {
+    line-height:20px;
 }
 
 .SecondNav {
