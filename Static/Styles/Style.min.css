@@ -870,6 +870,7 @@ a .imgFollowUS {
     font-size: 16px;
     line-height: 25px;
     width: 70%;
+    margin-top: 15px;
 }
 
 #CareerLinks {
@@ -911,7 +912,7 @@ a .imgFollowUS {
 }
 
 #CareersRightTitle {
-    margin-top: 105px;
+    margin-top: 0;
 }
 
 .MarginUp {

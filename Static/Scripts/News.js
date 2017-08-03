@@ -60,7 +60,7 @@
     $("document").ready(function () {
         oNewsContainer = $("#LoadPageNews");
         $.ajax({
-            url: 'http://www.blogger.com/feeds/2523158019509365490/posts/default/-/News',
+            url: 'https://www.blogger.com/feeds/2523158019509365490/posts/default/-/News',
             type: 'GET',
             dataType: 'jsonp',
             success: function (sResponse) {

@@ -80,9 +80,9 @@
                 renderTitleRedmond(oRedmond);
             }, 800);
         } else {
-            var feedUrl = "http://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Hyderabad";
+            var feedUrl = "https://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Hyderabad";
             if ("mumbai" === sID.toLowerCase()) {
-                feedUrl = "http://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Mumbai";
+                feedUrl = "https://www.blogger.com/feeds/2523158019509365490/posts/default/-/Openings - Mumbai";
             }
             $.ajax({
                 url: feedUrl,
